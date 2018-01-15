@@ -1,7 +1,8 @@
 
 #---Load library
 library(transport)
-source('~/Desktop/Topics/Possibletopics/EMD/Simulation/Code/Simulation_R/functions.R')
+#change to local location
+source('/functions.R')
 
 #---Set parameters for one simulation
 # p - mixture proportion
@@ -9,8 +10,8 @@ source('~/Desktop/Topics/Possibletopics/EMD/Simulation/Code/Simulation_R/functio
 # dim - dimension of samples
 # N - sample size of each population
 # sample 1 is N(0,1); sample 2 is (1-p) N(0,1) + p N(mu,1), for mu = (mu,0,0,...,0)
-p = 0.001
-mu = 5
+p = 0
+mu = 0
 dim = 20
 N = 100000
 
