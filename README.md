@@ -1,2 +1,1 @@
-# EMD
-compares EMD with QD
+Simulation R code for the QFMatch paper
